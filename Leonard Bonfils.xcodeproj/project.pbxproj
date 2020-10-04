@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D72705971C7949A3008D3514 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72705961C7949A3008D3514 /* AppDelegate.swift */; };
+		D727059C1C7949A3008D3514 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727059A1C7949A3008D3514 /* Main.storyboard */; };
+		D727059E1C7949A3008D3514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D727059D1C7949A3008D3514 /* Assets.xcassets */; };
+		D72705A11C7949A3008D3514 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727059F1C7949A3008D3514 /* LaunchScreen.storyboard */; };
+		D7545B4D1CD594AC00776491 /* Tesla Live Photo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D7545B4B1CD594AC00776491 /* Tesla Live Photo.JPG */; };
+		D7545B4E1CD594AC00776491 /* Tesla Live Photo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = D7545B4C1CD594AC00776491 /* Tesla Live Photo.MOV */; };
+		D78793611C8278D800EDD15E /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78793601C8278D800EDD15E /* SongViewController.swift */; };
+		D78793631C8278DF00EDD15E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78793621C8278DF00EDD15E /* SettingsViewController.swift */; };
+		D787D2721C8A13D000AA399F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D787D2711C8A13D000AA399F /* CustomTextField.swift */; };
+		D79428D11CBDBCEE00491D61 /* Half The Man - AT.json in Resources */ = {isa = PBXBuildFile; fileRef = D79428C21CBDBCEE00491D61 /* Half The Man - AT.json */; };
+		D7A7D9E91CA1E62500E1E699 /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7D9E81CA1E62500E1E699 /* JSSAlertView.swift */; };
+		D7ADF4ED1CC98D620023A698 /* Tesla Engine Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7ADF4EC1CC98D620023A698 /* Tesla Engine Sound.mp3 */; };
+		D7B9E7BD1C84B2C0006785A3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E7BC1C84B2C0006785A3 /* Utilities.swift */; };
+		D7B9E7BF1C84BA0A006785A3 /* CustomizedBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E7BE1C84BA0A006785A3 /* CustomizedBaseViewController.swift */; };
+		D7B9E7C11C84BEF8006785A3 /* NetworkingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E7C01C84BEF8006785A3 /* NetworkingModels.swift */; };
+		D7B9E7C31C84F663006785A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B9E7C21C84F663006785A3 /* LoginViewController.swift */; };
+		D7C198C41CC8165D0012321B /* DeepPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C198C31CC8165D0012321B /* DeepPressGestureRecognizer.swift */; };
+		D7C198C81CC84F020012321B /* DeepPressableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C198C71CC84F020012321B /* DeepPressableButton.swift */; };
+		D7D151691CC6CEF100F04BAD /* Half the Man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D7D151681CC6CEF100F04BAD /* Half the Man.mp3 */; };
+		D7D151731CC6F2E400F04BAD /* Tesla Live Photo 2 - Short.mov in Resources */ = {isa = PBXBuildFile; fileRef = D7D151701CC6F2E400F04BAD /* Tesla Live Photo 2 - Short.mov */; };
+		D7D151741CC6F2E400F04BAD /* Tesla Live Photo 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D7D151711CC6F2E400F04BAD /* Tesla Live Photo 2.JPG */; };
+		D7D151771CC70BEF00F04BAD /* SettingsTile.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D151761CC70BEF00F04BAD /* SettingsTile.xib */; };
+		D7D151791CC70C8B00F04BAD /* SettingsTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D151781CC70C8B00F04BAD /* SettingsTile.swift */; };
+		E995D9BFB4CD98EC086BE8C9 /* Pods_Teslanimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDFF2049114DC732682E9E8 /* Pods_Teslanimate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EDFF2049114DC732682E9E8 /* Pods_Teslanimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teslanimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6702E1A86E1F0388B3FB97F7 /* Pods-Teslanimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teslanimate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teslanimate/Pods-Teslanimate.debug.xcconfig"; sourceTree = "<group>"; };
+		884338444B5BF2FD76838E7B /* Pods-Teslanimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teslanimate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teslanimate/Pods-Teslanimate.release.xcconfig"; sourceTree = "<group>"; };
+		D72705931C7949A3008D3514 /* Leonard Bonfils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leonard Bonfils.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72705961C7949A3008D3514 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; usesTabs = 0; };
+		D727059B1C7949A3008D3514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D727059D1C7949A3008D3514 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D72705A01C7949A3008D3514 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D72705A21C7949A3008D3514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7545B4B1CD594AC00776491 /* Tesla Live Photo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tesla Live Photo.JPG"; sourceTree = "<group>"; };
+		D7545B4C1CD594AC00776491 /* Tesla Live Photo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Tesla Live Photo.MOV"; sourceTree = "<group>"; };
+		D78793601C8278D800EDD15E /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		D78793621C8278DF00EDD15E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D787D2711C8A13D000AA399F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D79428C21CBDBCEE00491D61 /* Half The Man - AT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "Half The Man - AT.json"; path = "../../Teslanimate - Resources/Test JSONs/Analyze Tempo/Half The Man - AT.json"; sourceTree = "<group>"; };
+		D7A7D9E81CA1E62500E1E699 /* JSSAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSSAlertView.swift; path = "../../Teslanimate - Resources/Libraries/JSSAlertView/JSSAlertView.swift"; sourceTree = "<group>"; };
+		D7A7D9EA1CA3380F00E1E699 /* RandomCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomCode.swift; sourceTree = "<group>"; };
+		D7ADF4EC1CC98D620023A698 /* Tesla Engine Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tesla Engine Sound.mp3"; sourceTree = "<group>"; };
+		D7B9E7BC1C84B2C0006785A3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D7B9E7BE1C84BA0A006785A3 /* CustomizedBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedBaseViewController.swift; sourceTree = "<group>"; };
+		D7B9E7C01C84BEF8006785A3 /* NetworkingModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingModels.swift; sourceTree = "<group>"; };
+		D7B9E7C21C84F663006785A3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D7C198C31CC8165D0012321B /* DeepPressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepPressGestureRecognizer.swift; sourceTree = "<group>"; };
+		D7C198C71CC84F020012321B /* DeepPressableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepPressableButton.swift; sourceTree = "<group>"; };
+		D7D151681CC6CEF100F04BAD /* Half the Man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Half the Man.mp3"; sourceTree = "<group>"; };
+		D7D151701CC6F2E400F04BAD /* Tesla Live Photo 2 - Short.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Tesla Live Photo 2 - Short.mov"; sourceTree = "<group>"; };
+		D7D151711CC6F2E400F04BAD /* Tesla Live Photo 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tesla Live Photo 2.JPG"; sourceTree = "<group>"; };
+		D7D151761CC70BEF00F04BAD /* SettingsTile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTile.xib; sourceTree = "<group>"; };
+		D7D151781CC70C8B00F04BAD /* SettingsTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72705901C7949A3008D3514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E995D9BFB4CD98EC086BE8C9 /* Pods_Teslanimate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D62893D85BCAE90C93FD5A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6702E1A86E1F0388B3FB97F7 /* Pods-Teslanimate.debug.xcconfig */,
+				884338444B5BF2FD76838E7B /* Pods-Teslanimate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D727058A1C7949A3008D3514 = {
+			isa = PBXGroup;
+			children = (
+				D72705951C7949A3008D3514 /* Teslanimate */,
+				D72705941C7949A3008D3514 /* Products */,
+				D62893D85BCAE90C93FD5A8B /* Pods */,
+				EB5081720425EBBD86339D78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D72705941C7949A3008D3514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D72705931C7949A3008D3514 /* Leonard Bonfils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72705951C7949A3008D3514 /* Teslanimate */ = {
+			isa = PBXGroup;
+			children = (
+				D72705961C7949A3008D3514 /* AppDelegate.swift */,
+				D7A7D9EA1CA3380F00E1E699 /* RandomCode.swift */,
+				D73326C61C850A7300B6236B /* View Controllers */,
+				D73326C41C850A6F00B6236B /* Models */,
+				D7A7D9E71CA1E5D600E1E699 /* Other Libraries */,
+				D7B95F941CA9C7660063C7E8 /* Local Resources */,
+				D727059D1C7949A3008D3514 /* Assets.xcassets */,
+				D727059A1C7949A3008D3514 /* Main.storyboard */,
+				D727059F1C7949A3008D3514 /* LaunchScreen.storyboard */,
+				D7D151761CC70BEF00F04BAD /* SettingsTile.xib */,
+				D72705A21C7949A3008D3514 /* Info.plist */,
+			);
+			path = Teslanimate;
+			sourceTree = "<group>";
+		};
+		D73326C41C850A6F00B6236B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7C198C71CC84F020012321B /* DeepPressableButton.swift */,
+				D7D151781CC70C8B00F04BAD /* SettingsTile.swift */,
+				D787D2711C8A13D000AA399F /* CustomTextField.swift */,
+				D7B9E7BC1C84B2C0006785A3 /* Utilities.swift */,
+				D7B9E7C01C84BEF8006785A3 /* NetworkingModels.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D73326C61C850A7300B6236B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9E7BE1C84BA0A006785A3 /* CustomizedBaseViewController.swift */,
+				D78793601C8278D800EDD15E /* SongViewController.swift */,
+				D78793621C8278DF00EDD15E /* SettingsViewController.swift */,
+				D7B9E7C21C84F663006785A3 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D79428BF1CBDBCD200491D61 /* Audio Analysis JSONs */ = {
+			isa = PBXGroup;
+			children = (
+				D79428C21CBDBCEE00491D61 /* Half The Man - AT.json */,
+			);
+			name = "Audio Analysis JSONs";
+			sourceTree = "<group>";
+		};
+		D7A7D9E71CA1E5D600E1E699 /* Other Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D7A7D9E81CA1E62500E1E699 /* JSSAlertView.swift */,
+				D7C198C31CC8165D0012321B /* DeepPressGestureRecognizer.swift */,
+			);
+			name = "Other Libraries";
+			sourceTree = "<group>";
+		};
+		D7ADF4E91CC98CEA0023A698 /* Tesla Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D7ADF4EC1CC98D620023A698 /* Tesla Engine Sound.mp3 */,
+			);
+			name = "Tesla Sounds";
+			sourceTree = "<group>";
+		};
+		D7B95F941CA9C7660063C7E8 /* Local Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7ADF4E91CC98CEA0023A698 /* Tesla Sounds */,
+				D7D1516B1CC6DDE000F04BAD /* Live Photos (Backgrounds) */,
+				D7D1516A1CC6CEF500F04BAD /* Test Songs */,
+				D79428BF1CBDBCD200491D61 /* Audio Analysis JSONs */,
+			);
+			name = "Local Resources";
+			sourceTree = "<group>";
+		};
+		D7D1516A1CC6CEF500F04BAD /* Test Songs */ = {
+			isa = PBXGroup;
+			children = (
+				D7D151681CC6CEF100F04BAD /* Half the Man.mp3 */,
+			);
+			name = "Test Songs";
+			sourceTree = "<group>";
+		};
+		D7D1516B1CC6DDE000F04BAD /* Live Photos (Backgrounds) */ = {
+			isa = PBXGroup;
+			children = (
+				D7D151701CC6F2E400F04BAD /* Tesla Live Photo 2 - Short.mov */,
+				D7D151711CC6F2E400F04BAD /* Tesla Live Photo 2.JPG */,
+				D7545B4B1CD594AC00776491 /* Tesla Live Photo.JPG */,
+				D7545B4C1CD594AC00776491 /* Tesla Live Photo.MOV */,
+			);
+			name = "Live Photos (Backgrounds)";
+			sourceTree = "<group>";
+		};
+		EB5081720425EBBD86339D78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EDFF2049114DC732682E9E8 /* Pods_Teslanimate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72705921C7949A3008D3514 /* Leonard Bonfils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72705A51C7949A3008D3514 /* Build configuration list for PBXNativeTarget "Leonard Bonfils" */;
+			buildPhases = (
+				963E458AAF1447FB33D16E45 /* Check Pods Manifest.lock */,
+				D727058F1C7949A3008D3514 /* Sources */,
+				D72705901C7949A3008D3514 /* Frameworks */,
+				D72705911C7949A3008D3514 /* Resources */,
+				CFDC76DEDA49E1F068A4D6D9 /* Embed Pods Frameworks */,
+				0E8D15844A508B00ADAE498D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leonard Bonfils";
+			productName = Teslanimate;
+			productReference = D72705931C7949A3008D3514 /* Leonard Bonfils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D727058B1C7949A3008D3514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Léonard Bonfils";
+				TargetAttributes = {
+					D72705921C7949A3008D3514 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2RZZR7HGK6;
+					};
+				};
+			};
+			buildConfigurationList = D727058E1C7949A3008D3514 /* Build configuration list for PBXProject "Leonard Bonfils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D727058A1C7949A3008D3514;
+			productRefGroup = D72705941C7949A3008D3514 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72705921C7949A3008D3514 /* Leonard Bonfils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72705911C7949A3008D3514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D151731CC6F2E400F04BAD /* Tesla Live Photo 2 - Short.mov in Resources */,
+				D79428D11CBDBCEE00491D61 /* Half The Man - AT.json in Resources */,
+				D7D151741CC6F2E400F04BAD /* Tesla Live Photo 2.JPG in Resources */,
+				D72705A11C7949A3008D3514 /* LaunchScreen.storyboard in Resources */,
+				D7545B4E1CD594AC00776491 /* Tesla Live Photo.MOV in Resources */,
+				D7D151691CC6CEF100F04BAD /* Half the Man.mp3 in Resources */,
+				D7ADF4ED1CC98D620023A698 /* Tesla Engine Sound.mp3 in Resources */,
+				D727059E1C7949A3008D3514 /* Assets.xcassets in Resources */,
+				D7D151771CC70BEF00F04BAD /* SettingsTile.xib in Resources */,
+				D7545B4D1CD594AC00776491 /* Tesla Live Photo.JPG in Resources */,
+				D727059C1C7949A3008D3514 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8D15844A508B00ADAE498D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teslanimate/Pods-Teslanimate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		963E458AAF1447FB33D16E45 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDC76DEDA49E1F068A4D6D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Teslanimate/Pods-Teslanimate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D727058F1C7949A3008D3514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C198C81CC84F020012321B /* DeepPressableButton.swift in Sources */,
+				D7B9E7C31C84F663006785A3 /* LoginViewController.swift in Sources */,
+				D7B9E7BF1C84BA0A006785A3 /* CustomizedBaseViewController.swift in Sources */,
+				D78793611C8278D800EDD15E /* SongViewController.swift in Sources */,
+				D7C198C41CC8165D0012321B /* DeepPressGestureRecognizer.swift in Sources */,
+				D7B9E7BD1C84B2C0006785A3 /* Utilities.swift in Sources */,
+				D787D2721C8A13D000AA399F /* CustomTextField.swift in Sources */,
+				D72705971C7949A3008D3514 /* AppDelegate.swift in Sources */,
+				D7D151791CC70C8B00F04BAD /* SettingsTile.swift in Sources */,
+				D7A7D9E91CA1E62500E1E699 /* JSSAlertView.swift in Sources */,
+				D78793631C8278DF00EDD15E /* SettingsViewController.swift in Sources */,
+				D7B9E7C11C84BEF8006785A3 /* NetworkingModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D727059A1C7949A3008D3514 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D727059B1C7949A3008D3514 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D727059F1C7949A3008D3514 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72705A01C7949A3008D3514 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72705A31C7949A3008D3514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D72705A41C7949A3008D3514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72705A61C7949A3008D3514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6702E1A86E1F0388B3FB97F7 /* Pods-Teslanimate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon - Test (Black-Dark Blue gradient) - version 2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Teslanimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LB.Teslanimate;
+				PRODUCT_NAME = "Leonard Bonfils";
+			};
+			name = Debug;
+		};
+		D72705A71C7949A3008D3514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884338444B5BF2FD76838E7B /* Pods-Teslanimate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon - Test (Black-Dark Blue gradient) - version 2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Teslanimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LB.Teslanimate;
+				PRODUCT_NAME = "Leonard Bonfils";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D727058E1C7949A3008D3514 /* Build configuration list for PBXProject "Leonard Bonfils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72705A31C7949A3008D3514 /* Debug */,
+				D72705A41C7949A3008D3514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72705A51C7949A3008D3514 /* Build configuration list for PBXNativeTarget "Leonard Bonfils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72705A61C7949A3008D3514 /* Debug */,
+				D72705A71C7949A3008D3514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D727058B1C7949A3008D3514 /* Project object */;
+}

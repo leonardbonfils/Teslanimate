@@ -12,10 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+//    var shortcutItem = UIApplicationShortcutItem.self
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        SystemVariables.systemPreferences.setObject(true, forKey: "firstTimeShowingSongVC")
+//        var performShortcutDelegate = true
+        
+        NSUserDefaults.standardUserDefaults().setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+        UITabBar.appearance().barStyle = UIBarStyle.Black
+        
+        /**
+        if let shortcutItem = launchOptions?[UIApplicationLaunchOptionsShortcutItemKey] as? UIApplicationShortcutItem {
+            performShortcutDelegate = false
+            handleShortcut(shortcutItem)
+        }
+    */
         return true
     }
 
@@ -25,6 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(application: UIApplication) {
+        SystemVariables.systemPreferences.setBool(false, forKey: "3DTouchUse")
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     }
@@ -38,9 +50,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(application: UIApplication) {
+        SystemVariables.systemPreferences.setObject(true, forKey: "firstTimeShowingSongVC")
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    // MARK: - 3D Touch Implementation
+    
+    /**
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: (Bool) -> Void) {
+        completionHandler(handleShortcut(shortcutItem))
+    }
+    
+    func handleShortcut(shortcutItem: UIApplicationShortcutItem) -> Bool {
+        var succeeded = false
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let tabBarVC = storyboard.instantiateViewControllerWithIdentifier("TabBarVCIdentifier") as? UITabBarController
+        
+        switch shortcutItem.type {
+        case "LB.Teslanimate.Settings":
+            tabBarVC?.selectedIndex = 1
+            succeeded = true
+//        case "LB.Teslanimate.TestSong":
+//            tabBarVC?.selectedIndex = 0
+//            SystemVariables.setSongAction3DTouch(UIVariables.SongAction.TestSong)
+//            succeeded = true
+//        case "LB.Teslanimate.SelectSong":
+//            tabBarVC?.selectedIndex = 0
+//            SystemVariables.setSongAction3DTouch(UIVariables.SongAction.SelectSong)
+//            succeeded = true
+        default:
+            tabBarVC?.selectedIndex = 0
+            succeeded = true
+        }
+        
+        self.window?.rootViewController = tabBarVC
+        self.window?.makeKeyAndVisible()
+        SystemVariables.notify3DTouchUse()
+        
+        return succeeded
+    } */
 }
-

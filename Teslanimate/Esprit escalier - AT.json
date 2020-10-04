@@ -1,0 +1,355 @@
+{
+  "status": {
+    "code": 200
+  },
+  "auftakt_result": {
+    "clicks_per_bar": 4,
+    "overall_tempo": 72.53426361083984,
+    "overall_tempo_straight": 72.2345199584961,
+    "click_marks": [
+      {
+        "index": 0,
+        "bpm": 72.50297546386719,
+        "probability": 0.9952673316001892,
+        "time": 0.16380952380952382,
+        "downbeat": "false"
+      },
+      {
+        "index": 1,
+        "bpm": 72.50297546386719,
+        "probability": 0.9956696033477783,
+        "time": 0.5775963718820861,
+        "downbeat": "true"
+      },
+      {
+        "index": 2,
+        "bpm": 72.50298309326172,
+        "probability": 0.9960718750953674,
+        "time": 0.9913832199546485,
+        "downbeat": "false"
+      },
+      {
+        "index": 3,
+        "bpm": 72.50298309326172,
+        "probability": 0.9964744448661804,
+        "time": 1.4053061224489796,
+        "downbeat": "false"
+      },
+      {
+        "index": 4,
+        "bpm": 72.50577545166016,
+        "probability": 0.9968540072441101,
+        "time": 1.819047619047619,
+        "downbeat": "false"
+      },
+      {
+        "index": 5,
+        "bpm": 72.50577545166016,
+        "probability": 0.997256875038147,
+        "time": 2.2332426303854875,
+        "downbeat": "true"
+      },
+      {
+        "index": 6,
+        "bpm": 72.51385498046875,
+        "probability": 0.9976513385772705,
+        "time": 2.6473015873015875,
+        "downbeat": "false"
+      },
+      {
+        "index": 7,
+        "bpm": 72.52061462402344,
+        "probability": 0.9980539083480835,
+        "time": 3.061496598639456,
+        "downbeat": "false"
+      },
+      {
+        "index": 8,
+        "bpm": 72.5309066772461,
+        "probability": 0.9966789484024048,
+        "time": 3.4751020408163265,
+        "downbeat": "false"
+      },
+      {
+        "index": 9,
+        "bpm": 72.5309066772461,
+        "probability": 0.9966789484024048,
+        "time": 3.888707482993197,
+        "downbeat": "true"
+      },
+      {
+        "index": 10,
+        "bpm": 72.49008178710938,
+        "probability": 0.9979854822158813,
+        "time": 4.302312925170068,
+        "downbeat": "false"
+      },
+      {
+        "index": 11,
+        "bpm": 72.43858337402344,
+        "probability": 0.9975849390029907,
+        "time": 4.718253968253968,
+        "downbeat": "false"
+      },
+      {
+        "index": 12,
+        "bpm": 72.38919067382812,
+        "probability": 0.9971828460693359,
+        "time": 5.135056689342403,
+        "downbeat": "false"
+      },
+      {
+        "index": 13,
+        "bpm": 72.33411407470703,
+        "probability": 0.9967912435531616,
+        "time": 5.552040816326531,
+        "downbeat": "true"
+      },
+      {
+        "index": 14,
+        "bpm": 72.30426788330078,
+        "probability": 0.996395468711853,
+        "time": 5.969637188208617,
+        "downbeat": "false"
+      },
+      {
+        "index": 15,
+        "bpm": 72.26240539550781,
+        "probability": 0.9961187243461609,
+        "time": 6.386077097505669,
+        "downbeat": "false"
+      },
+      {
+        "index": 16,
+        "bpm": 72.22748565673828,
+        "probability": 0.995722234249115,
+        "time": 6.803401360544218,
+        "downbeat": "false"
+      },
+      {
+        "index": 17,
+        "bpm": 72.18856811523438,
+        "probability": 0.995463490486145,
+        "time": 7.220566893424036,
+        "downbeat": "true"
+      },
+      {
+        "index": 18,
+        "bpm": 72.17169189453125,
+        "probability": 0.9950720071792603,
+        "time": 7.638163265306122,
+        "downbeat": "false"
+      },
+      {
+        "index": 19,
+        "bpm": 72.14366149902344,
+        "probability": 0.9947746396064758,
+        "time": 8.05469387755102,
+        "downbeat": "false"
+      },
+      {
+        "index": 20,
+        "bpm": 72.13138580322266,
+        "probability": 0.9943763613700867,
+        "time": 8.471972789115647,
+        "downbeat": "false"
+      },
+      {
+        "index": 21,
+        "bpm": 72.11285400390625,
+        "probability": 0.9941754341125488,
+        "time": 8.888503401360545,
+        "downbeat": "true"
+      },
+      {
+        "index": 22,
+        "bpm": 72.1010513305664,
+        "probability": 0.9938015937805176,
+        "time": 9.30546485260771,
+        "downbeat": "false"
+      },
+      {
+        "index": 23,
+        "bpm": 72.07874298095703,
+        "probability": 0.9935870170593262,
+        "time": 9.722154195011338,
+        "downbeat": "false"
+      },
+      {
+        "index": 24,
+        "bpm": 72.06938171386719,
+        "probability": 0.9931865930557251,
+        "time": 10.13952380952381,
+        "downbeat": "false"
+      },
+      {
+        "index": 25,
+        "bpm": 72.05831909179688,
+        "probability": 0.9928776025772095,
+        "time": 10.556258503401361,
+        "downbeat": "true"
+      },
+      {
+        "index": 26,
+        "bpm": 72.07621765136719,
+        "probability": 0.9925026893615723,
+        "time": 10.973151927437641,
+        "downbeat": "false"
+      },
+      {
+        "index": 27,
+        "bpm": 72.09496307373047,
+        "probability": 0.9924571514129639,
+        "time": 11.38843537414966,
+        "downbeat": "false"
+      },
+      {
+        "index": 28,
+        "bpm": 72.113037109375,
+        "probability": 0.9920614957809448,
+        "time": 11.803560090702948,
+        "downbeat": "false"
+      },
+      {
+        "index": 29,
+        "bpm": 72.12490844726562,
+        "probability": 0.9917596578598022,
+        "time": 12.218616780045352,
+        "downbeat": "true"
+      },
+      {
+        "index": 30,
+        "bpm": 72.16612243652344,
+        "probability": 0.9914082288742065,
+        "time": 12.633945578231293,
+        "downbeat": "false"
+      },
+      {
+        "index": 31,
+        "bpm": 72.21649932861328,
+        "probability": 0.9910376667976379,
+        "time": 13.04750566893424,
+        "downbeat": "false"
+      },
+      {
+        "index": 32,
+        "bpm": 72.26485443115234,
+        "probability": 0.990768551826477,
+        "time": 13.46031746031746,
+        "downbeat": "false"
+      },
+      {
+        "index": 33,
+        "bpm": 72.3234634399414,
+        "probability": 0.9905121922492981,
+        "time": 13.87297052154195,
+        "downbeat": "true"
+      },
+      {
+        "index": 34,
+        "bpm": 72.40277099609375,
+        "probability": 0.9901341199874878,
+        "time": 14.284761904761904,
+        "downbeat": "false"
+      },
+      {
+        "index": 35,
+        "bpm": 72.49346160888672,
+        "probability": 0.9897525906562805,
+        "time": 14.695056689342403,
+        "downbeat": "false"
+      },
+      {
+        "index": 36,
+        "bpm": 72.60310363769531,
+        "probability": 0.989372968673706,
+        "time": 15.104263038548753,
+        "downbeat": "false"
+      },
+      {
+        "index": 37,
+        "bpm": 72.70173645019531,
+        "probability": 0.9890614748001099,
+        "time": 15.511927437641724,
+        "downbeat": "true"
+      },
+      {
+        "index": 38,
+        "bpm": 72.8099365234375,
+        "probability": 0.9886727929115295,
+        "time": 15.919591836734694,
+        "downbeat": "false"
+      },
+      {
+        "index": 39,
+        "bpm": 72.90121459960938,
+        "probability": 0.9882772564888,
+        "time": 16.326167800453515,
+        "downbeat": "false"
+      },
+      {
+        "index": 40,
+        "bpm": 72.97950744628906,
+        "probability": 0.9878821969032288,
+        "time": 16.733083900226756,
+        "downbeat": "false"
+      },
+      {
+        "index": 41,
+        "bpm": 73.0635986328125,
+        "probability": 0.9874861836433411,
+        "time": 17.140226757369614,
+        "downbeat": "true"
+      },
+      {
+        "index": 42,
+        "bpm": 73.15576171875,
+        "probability": 0.987339198589325,
+        "time": 17.546598639455784,
+        "downbeat": "false"
+      },
+      {
+        "index": 43,
+        "bpm": 73.25157928466797,
+        "probability": 0.9869756698608398,
+        "time": 17.95206349206349,
+        "downbeat": "false"
+      },
+      {
+        "index": 44,
+        "bpm": 73.35216522216797,
+        "probability": 0.9866703152656555,
+        "time": 18.356825396825396,
+        "downbeat": "false"
+      },
+      {
+        "index": 45,
+        "bpm": 73.45539093017578,
+        "probability": 0.9863602519035339,
+        "time": 18.760816326530612,
+        "downbeat": "true"
+      },
+      {
+        "index": 46,
+        "bpm": 73.56148529052734,
+        "probability": 0.9860698580741882,
+        "time": 19.164104308390023,
+        "downbeat": "false"
+      },
+      {
+        "index": 47,
+        "bpm": 73.6697769165039,
+        "probability": 0.9859560132026672,
+        "time": 19.566689342403627,
+        "downbeat": "false"
+      },
+      {
+        "index": 48,
+        "bpm": 73.77601623535156,
+        "probability": 0.9856112599372864,
+        "time": 19.96859410430839,
+        "downbeat": "false"
+      }
+    ]
+  }
+}
