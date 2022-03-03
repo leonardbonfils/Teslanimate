@@ -1,5 +1,5 @@
 # Teslanimate
-A fun little app which takes any song and animates your Tesla in sync with that song.
+App that takes any song and animates your Tesla in sync with that song.
 
 _Project ended up being too complex but learned a ton about Swift development while doing it!_
 
