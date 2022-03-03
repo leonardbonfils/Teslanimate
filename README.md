@@ -1,5 +1,13 @@
 # Teslanimate
 A fun little app which takes any song and animates your Tesla in sync with that song.
 
-[![iOS Audio test](https://img.youtube.com/vi/EvIP4og6o04/0.jpg)](https://www.youtube.com/watch?v=EvIP4og6o04)
-[![Tesla API connection](https://img.youtube.com/vi/9-uHgmmwVaI/0.jpg)](https://www.youtube.com/watch?v=9-uHgmmwVaI)
+_Project ended up being too complex but learned a ton about Swift development while doing it!_
+
+
+
+https://user-images.githubusercontent.com/6782987/156586543-95ddda33-495d-4b8b-a903-f4201acb1e06.mov
+
+
+
+https://user-images.githubusercontent.com/6782987/156586566-858e8b98-c30e-4621-8745-b6ce14f33d81.mov
+
